@@ -1,0 +1,38 @@
+:root {
+  --rose-bg: #fce4ec;
+  --rose-light: #fff5f8;
+  --rose-mid: #f8bbd9;
+  --rose-deep: #c2185b;
+  --text-main: #4a3540;
+  --text-soft: #7a5c68;
+  --white: #ffffff;
+  --shadow-soft: 0 2px 12px rgba(194, 24, 91, 0.06);
+  --font-heading: 'Cormorant Garamond', Georgia, serif;
+  --font-body: 'Nunito', system-ui, sans-serif;
+  --choco: #5d4037;
+  --border-subtle: rgba(248, 187, 217, 0.55);
+  --error: #b71c1c;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-body);
+  line-height: 1.45;
+  color: var(--text-main);
+  background: linear-gradient(
+    180deg,
+    var(--rose-bg) 0%,
+    var(--rose-light) 35%,
+    #ffffff 100%
+  );
+}
+
+#root {
+  min-height: 100vh;
+}
