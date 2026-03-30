@@ -39,10 +39,6 @@ export default function LoginForm({ onLoggedIn }: LoginFormProps) {
     <div className="login-wrap">
       <form className="login-form" onSubmit={handleSubmit}>
         <h2 className="login-heading">Вход</h2>
-        <p className="login-hint">
-          Два входа: администратор (например, логин salon) и директор (director).
-          Пароли задаются в .env на сервере.
-        </p>
         <label className="login-field">
           <span>Логин</span>
           <input
